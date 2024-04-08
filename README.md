@@ -4,10 +4,10 @@ Storage-First is one of the patterns I use the most. I would say that there is n
 
 By storing the data we have an exact copy in case of our processing fails. Examples of failures could be, but not limited to.
 
-Failure to process the data
-Failure storing the data to persisting storage
-Failure when calling a downstream 3rd party service or API.
-This is standard way to handle requests using Amazon API Gateway where we like to process the incoming request and store the data in Amazon S3, it could look something like this.
+Failure to process the data  
+Failure storing the data to persisting storage  
+Failure when calling a downstream 3rd party service or API.  
+This is standard way to handle requests using Amazon API Gateway where we like to process the incoming request and store the data in Amazon S3, it could look something like this.  
 
 Let's start with the High Level Design.
 ![High Level Design](./images/st1.png)
